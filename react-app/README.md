@@ -13,3 +13,9 @@
 ```javascript
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
+
+## .env.local [DOCUMENTATION](https://create-react-app.dev/docs/adding-custom-environment-variables/)
+
+```
+REACT_APP_BACKEND_BASE_URL=http://localhost:8500
+```
