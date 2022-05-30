@@ -3,10 +3,10 @@ const { oracleConfig } = require('../config/config');
 const path = require('path');
 
 // path to client
-const oracleClient = path.join('C:', 'oracle', 'db_home', 'bin');
+// const oracleClient = path.join('C:', 'oracle', 'db_home', 'bin');
 
 // init client
-oracledb.initOracleClient({ libDir: oracleClient });
+// oracledb.initOracleClient({ libDir: oracleClient });
 
 // init database
 module.exports.start = async () => {
