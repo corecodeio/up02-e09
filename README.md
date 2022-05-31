@@ -5,6 +5,8 @@ This a basic javascrip application. The frontend was built with reactjs, the bac
 ### Create Oracle Database Container
 
 ``` bash
+# Docs https://hub.docker.com/r/gvenzl/oracle-xe
+
 docker run -d -p 1521:1521 \
 -e ORACLE_PASSWORD=<app_password> \
 -e APP_USER=<app_user> \
