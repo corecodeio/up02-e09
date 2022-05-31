@@ -2,6 +2,8 @@ const oracledb = require('oracledb');
 const { oracleConfig } = require('../config/config');
 const path = require('path');
 
+// This is not needed if you use the default location
+
 // path to client
 // const oracleClient = path.join('C:', 'oracle', 'db_home', 'bin');
 
