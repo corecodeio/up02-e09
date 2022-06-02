@@ -11,12 +11,12 @@ docker run -d -p 1521:1521 \
 -e ORACLE_PASSWORD=<app_password> \
 -e APP_USER=<app_user> \
 -e APP_USER_PASSWORD=<sys_password> \
- gvenzl/oracle-xe
+-v oracle-volume:/opt/oracle/oradata \
+gvenzl/oracle-xe
 ```
 
 TODOS:
 - Use a SQL init script
-- Use a volume for persistency
 
 ### Backend Container
 
