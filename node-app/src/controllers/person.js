@@ -24,6 +24,7 @@ module.exports.registerPerson = async (req, res, next) => {
           {
             first_name: req.body.first_name,
             last_name: req.body.last_name,
+            auth_token: person_token[0],
           },
         ],
       });
@@ -61,6 +62,7 @@ module.exports.loginPerson = async (req, res, next) => {
               {
                 first_name: first_name[0],
                 last_name: last_name[0],
+                auth_token: person_token[0],
               },
             ],
           });
